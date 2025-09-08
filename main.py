@@ -96,4 +96,3 @@ def login(user: UserIn, db: SessionLocal = Depends(get_db)):
             detail="잘못된 사용자 이름 또는 비밀번호입니다."
         )
     return db_user
-// 메인 코드 끝
